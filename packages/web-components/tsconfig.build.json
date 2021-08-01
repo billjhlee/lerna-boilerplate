@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.build.json",
+  "compilerOptions": {
+    "declarationDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./"
+    // "jsx": "react-jsx",
+    // "jsxImportSource": "@emotion/react"
+    // "types": ["@emotion/react/types/css-prop"]
+  },
+  "include": ["./src"]
+}
