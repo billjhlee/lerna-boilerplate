@@ -1,0 +1,17 @@
+{
+  "name": "@sample/web-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/styles/customized.css",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url src/sass/customized.scss src/styles/customized.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.9.3",
+    "node-sass": "^6.0.1"
+  }
+}

@@ -14,10 +14,13 @@
     "@emotion/css": "^11.1.3",
     "@emotion/eslint-plugin": "^11.2.0",
     "@emotion/react": "^11.4.0",
-    "@storybook/addon-actions": "^6.3.6",
-    "@storybook/addon-essentials": "^6.3.6",
-    "@storybook/addon-links": "^6.3.6",
-    "@storybook/react": "^6.3.6",
+    "@storybook/addon-actions": "^6.4.0-alpha.18",
+    "@storybook/addon-docs": "^6.4.0-alpha.18",
+    "@storybook/addon-essentials": "^6.4.0-alpha.18",
+    "@storybook/addon-links": "^6.4.0-alpha.18",
+    "@storybook/builder-webpack5": "next",
+    "@storybook/manager-webpack5": "next",
+    "@storybook/react": "^6.4.0-alpha.18",
     "@types/node": "^16.4.10",
     "@types/react": "^17.0.15",
     "@typescript-eslint/eslint-plugin": "^4.28.5",
@@ -41,7 +44,8 @@
     "react-dom": "^17.0.2",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.2.1",
-    "typescript": "^4.3.5"
+    "typescript": "^4.3.5",
+    "webpack": "^5.48.0"
   },
   "resolutions": {
     "babel-core": "^7.0.0-bridge.0"
